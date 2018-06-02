@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form method="POST">
+      <div class="form-row">
+        <div class="col-md-12">
+          {{form.csrf_token}}
+          <div class="form-group">
+            {{form.agencia(class="form-control", placeholder="Banco - ex: Bradesco")}}
+          </div>
+
+          <div class="form-group">
+            {{form.estado(class="form-control", placeholder="Estado - ex: SP/RO/MG")}}
+          </div>
+
+          <div class="form-group">
+            {{form.cidade(class="form-control", placeholder="Cidade - ex: Pindamonhangaba")}}
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-primary btn-block"><i class="fas fa-search"></i></button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+{% endblock %}

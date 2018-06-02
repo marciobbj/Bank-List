@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      {% if mun %}
+      <h5 style="color:rgb(166, 166, 166); font-weight: bolder; text-align: center;">Resultados de '{{ mun | capitalize }}':</h5>
+      {% endif %}
+      {% for i in banco %}
+      <section id="box-resultados">
+        <div class="col">
+          <h6 style="text-align: left;">{{ i.nomeinstituicao | upper}}</h6>
+          <p style="color: rgb(116, 116, 116); font-family: sans-serif">
+            {{ i.endereco | title }}, {{ i.bairro | capitalize }}, {{ i.municipio | capitalize }} - {{ i.uf }}
+          </p>
+          <p style="color: rgb(116, 116, 116)">Telefone: +55{{ i.ddd }}-{{ i.fone }}</p>
+        </div>
+          <a style="text-align: center;"id="more-details-link">Mais detalhes</a>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+ </div>
+{% endblock %}
