@@ -1,5 +1,15 @@
 # banklist app
 
-Aplicativo que lista todas as agencias bancárias disponíveis na cidade pesquisada. 
+<p>Aplicativo que lista todas as agencias bancárias disponíveis na cidade pesquisada. 
 Como API usei um CSV disponibilizado pelo Banco Central do Brasil, tratei os dados com a biblioteca Pandas
-e os converti em um arquivo .DB
+e os converti em um arquivo .DB</p>
+
+<div>
+<h3>Tecnologias</h3>
+<ul>
+  <li>Python</li>
+  <li>ORM - Flask SQL-Alchemy</li>
+  <li>WT-Forms</li>
+  <li>Pandas</li>
+</ul>
+</div>
