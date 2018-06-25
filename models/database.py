@@ -1,5 +1,5 @@
-from lister.extensions import db
-from lister import app
+from banklist.extensions import db
+from banklist import app
 
 class Agencias(db.Model):
     __tablename__ = "bancos"

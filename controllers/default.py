@@ -1,9 +1,9 @@
 from flask import render_template,redirect, request
-from lister import app
+from banklist import app
 from sqlalchemy import func
-from lister.extensions import db
-from lister.forms import mainForm
-from lister.models.database import Agencias
+from banklist.extensions import db
+from banklist.forms import mainForm
+from banklist.models.database import Agencias
 
 
 @app.route('/', methods=['GET','POST'])

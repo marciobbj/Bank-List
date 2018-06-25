@@ -1,4 +1,4 @@
-from lister import app
+from banklist import app
 
 # Instanciamento de BD #
 
