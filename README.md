@@ -8,6 +8,7 @@ e os converti em um arquivo .DB</p>
 <h3>Tecnologias</h3>
 <ul>
   <li>Python</li>
+  <li>Bootstrap</li>
   <li>Flask</li>
   <li>ORM - Flask SQL-Alchemy</li>
   <li>WT-Forms</li>
