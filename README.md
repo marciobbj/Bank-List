@@ -12,4 +12,5 @@ e os converti em um arquivo .DB</p>
   <li>WT-Forms</li>
   <li>Pandas</li>
 </ul>
+  <img src="https://github.com/marciobbj/banklist/blob/master/img/gif_1.gif">
 </div>
